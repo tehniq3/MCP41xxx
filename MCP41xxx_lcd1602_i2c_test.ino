@@ -55,7 +55,7 @@ void loop() {
     if (level < 100) lcd.print(" ");
     if (level < 10) lcd.print(" ");
     lcd.print(level);
-    lcd.print("/255");
+    lcd.print("/256");
     lcd.setCursor(0, 1);
     lcd.print("U = ");
     lcd.print(Voltage,3);
@@ -80,7 +80,7 @@ void loop() {
     if (level < 100) lcd.print(" ");
     if (level < 10) lcd.print(" ");
     lcd.print(level);
-    lcd.print("/255");
+    lcd.print("/256");
     lcd.setCursor(0, 1);
     lcd.print("U = ");
     lcd.print(Voltage,3);
